@@ -1,0 +1,42 @@
+2024-06-05 14:56:18.1766|INFO|MultiFunPlayer|Environment [OSVersion: Microsoft Windows NT 10.0.19045.0, CLRVersion: 8.0.3]
+2024-06-05 14:56:18.1766|INFO|MultiFunPlayer|Assembly [Version: 1.29.4+Branch.tags-1.29.4.Sha.f18d8ae5f2ff0a7c98483806f30699b0eeca81f2]
+2024-06-05 14:56:18.1766|INFO|MultiFunPlayer|Config [Version: 27]
+2024-06-05 14:56:18.1766|INFO|MultiFunPlayer|Timer [IsHighResolution: True, Frequency: 10000000]
+2024-06-05 14:56:18.1766|INFO|MultiFunPlayer|Set working directory to "D:\src\Voxta.MFP-Alpha.117\mfp"
+2024-06-05 14:56:18.2491|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-06-05 14:56:21.2890|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/1 at "udp://localhost:8000"
+2024-06-05 14:56:21.2890|INFO|MultiFunPlayer.MediaSource.ViewModels.InternalMediaSource|Connecting to Internal
+2024-06-05 14:56:21.6475|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-06-05 14:56:21.6475|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-06-05 14:56:21.6605|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-06-05 14:56:21.6605|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:27.5000000]
+2024-06-05 14:56:26.5116|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:56:26.8692|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:57:03.1474|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:57:03.5054|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:57:10.0156|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_00000000"
+2024-06-05 14:57:10.3682|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:57:15.1996|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_VID&000105D6_PID&000A\B&1076B237&0&704F0808EEDF_C00000000"
+2024-06-05 14:57:28.0754|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Error when opening serial port|System.IO.IOException: The semaphore timeout period has expired. : 'COM7'
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:57:33.7436|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0046\B&1076B237&0&B8D61A5CC6D6_C00000000"
+2024-06-05 15:00:32.2500|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaPlayingChangedMessage [IsPlaying: True]
+2024-06-05 15:27:23.5764|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-06-05 15:27:23.6079|INFO|MultiFunPlayer.Settings.SettingsHelper|Saving settings to "MultiFunPlayer.config.json"

@@ -1,0 +1,90 @@
+2024-05-28 18:16:19.7899|INFO|MultiFunPlayer|Environment [OSVersion: Microsoft Windows NT 10.0.19045.0, CLRVersion: 8.0.3]
+2024-05-28 18:16:19.7973|INFO|MultiFunPlayer|Assembly [Version: 1.29.4+Branch.tags-1.29.4.Sha.f18d8ae5f2ff0a7c98483806f30699b0eeca81f2]
+2024-05-28 18:16:19.7973|INFO|MultiFunPlayer|Config [Version: 27]
+2024-05-28 18:16:19.7973|INFO|MultiFunPlayer|Timer [IsHighResolution: True, Frequency: 10000000]
+2024-05-28 18:16:19.7973|INFO|MultiFunPlayer|Set working directory to "D:\src\Voxta.MFP-Alpha.117\mfp"
+2024-05-28 18:16:19.8651|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-05-28 18:16:22.9757|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/0 at "udp://localhost:8000"
+2024-05-28 18:16:22.9757|INFO|MultiFunPlayer.MediaSource.ViewModels.InternalMediaSource|Connecting to Internal
+2024-05-28 18:16:23.0783|INFO|MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget|Connecting to Buttplug.io/0 at "ws://127.0.0.1:12345"
+2024-05-28 18:16:23.1103|INFO|MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget|Device added: "The Handy"
+2024-05-28 18:16:23.3286|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:16:23.3457|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:16:23.3734|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:16:23.3734|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:27.5000000]
+2024-05-28 18:16:36.0863|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/1 at "udp://localhost:8899"
+2024-05-28 18:16:51.4277|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:16:51.4277|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:16:51.4277|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "facefuck.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:16:51.4277|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:20.1330000]
+2024-05-28 18:16:51.4277|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaPlayingChangedMessage [IsPlaying: True]
+2024-05-28 18:17:20.0144|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:17:20.0307|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:17:20.0307|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "medium_deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:17:20.0307|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:29.3850000]
+2024-05-28 18:17:56.2275|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:17:56.2275|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:17:56.2325|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "tease01.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:17:56.2325|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:12.7000000]
+2024-05-28 18:18:00.7423|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/1 at "udp://localhost:8899"
+2024-05-28 18:18:31.4222|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:18:31.4222|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:18:31.4222|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "medium_deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:18:31.4222|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:29.3850000]
+2024-05-28 18:19:06.5183|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:19:06.5302|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:19:06.5302|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:19:06.5302|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:27.5000000]
+2024-05-28 18:21:26.2222|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:21:26.2222|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:21:26.2222|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "medium_deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:21:26.2222|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:29.3850000]
+2024-05-28 18:21:50.6942|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/1 at "udp://localhost:8899"
+2024-05-28 18:22:01.9264|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:22:01.9264|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:22:01.9264|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:22:01.9264|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:27.5000000]
+2024-05-28 18:22:14.8062|INFO|MultiFunPlayer.OutputTarget.ViewModels.WebSocketOutputTarget|Connecting to WebSocket/0 at "ws://127.0.0.1:8899/ws"
+2024-05-28 18:22:34.2275|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:22:34.2275|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:22:34.2275|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "medium_deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:22:34.2275|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:29.3850000]
+2024-05-28 18:22:51.2381|ERROR|MultiFunPlayer.OutputTarget.ViewModels.WebSocketOutputTarget|WebSocket/0 failed with exception|System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.ReadBufferedAsyncCore(Memory`1 destination)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.RawConnectionStream.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at MultiFunPlayer.Common.WebSocketExtensions.ReceiveAsync(ClientWebSocket client, CancellationToken token)
+   at MultiFunPlayer.Common.WebSocketExtensions.ReceiveAsync(ClientWebSocket client, CancellationToken token)
+   at MultiFunPlayer.OutputTarget.ViewModels.WebSocketOutputTarget.ReadAsync(ClientWebSocket client, CancellationToken token)
+   at MultiFunPlayer.Common.ExceptionExtensions.Throw(Exception e)
+   at MultiFunPlayer.Common.TaskExtensions.ThrowIfFaulted(Task task)
+   at MultiFunPlayer.OutputTarget.ViewModels.WebSocketOutputTarget.RunAsync(CancellationToken token)
+2024-05-28 18:23:10.9263|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:23:10.9263|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:23:10.9263|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:23:10.9263|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:27.5000000]
+2024-05-28 18:24:28.8221|INFO|MultiFunPlayer.OutputTarget.ViewModels.WebSocketOutputTarget|Connecting to WebSocket/0 at "ws://127.0.0.1:8899/ws"
+2024-05-28 18:26:12.9270|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:26:12.9270|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:26:12.9270|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "medium_deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:26:12.9270|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:29.3850000]
+2024-05-28 18:26:54.3261|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 18:26:54.3261|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 18:26:54.3261|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "facefuck.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 18:26:54.3261|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:20.1330000]
+2024-05-28 18:28:01.4301|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-05-28 18:28:01.4578|INFO|MultiFunPlayer.Settings.SettingsHelper|Saving settings to "MultiFunPlayer.config.json"
+2024-05-28 18:28:01.4856|INFO|MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget|Device removed: "The Handy"

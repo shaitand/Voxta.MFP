@@ -1,0 +1,51 @@
+2024-05-28 21:00:19.8284|INFO|MultiFunPlayer|Environment [OSVersion: Microsoft Windows NT 10.0.19045.0, CLRVersion: 8.0.3]
+2024-05-28 21:00:19.8434|INFO|MultiFunPlayer|Assembly [Version: 1.29.4+Branch.tags-1.29.4.Sha.f18d8ae5f2ff0a7c98483806f30699b0eeca81f2]
+2024-05-28 21:00:19.8434|INFO|MultiFunPlayer|Config [Version: 27]
+2024-05-28 21:00:19.8434|INFO|MultiFunPlayer|Timer [IsHighResolution: True, Frequency: 10000000]
+2024-05-28 21:00:19.8434|INFO|MultiFunPlayer|Set working directory to "D:\src\Voxta.MFP-Alpha.117\mfp"
+2024-05-28 21:00:19.9235|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-05-28 21:00:23.1438|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/0 at "udp://localhost:8000"
+2024-05-28 21:00:23.1438|INFO|MultiFunPlayer.MediaSource.ViewModels.InternalMediaSource|Connecting to Internal
+2024-05-28 21:00:23.4958|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 21:00:23.5072|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 21:00:23.5206|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 21:00:23.5206|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:27.5000000]
+2024-05-28 21:00:31.6863|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/1 at "udp://localhost:8889"
+2024-05-28 21:00:47.3790|INFO|MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget|Connecting to Buttplug.io/0 at "ws://127.0.0.1:12345"
+2024-05-28 21:00:49.4110|ERROR|MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget|Error when connecting to server|System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:12345)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, HttpMessageInvoker invoker, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, HttpMessageInvoker invoker, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.ClientWebSocket.ConnectAsyncCore(Uri uri, HttpMessageInvoker invoker, CancellationToken cancellationToken)
+   at Buttplug.ButtplugWebsocketConnector.ConnectAsync(Uri uri, CancellationToken cancellationToken)
+   at Buttplug.ButtplugClient.ConnectAsync(Uri uri, CancellationToken cancellationToken)
+   at Buttplug.Extensions.Throw(Exception e)
+   at Buttplug.ButtplugClient.ConnectAsync(Uri uri, CancellationToken cancellationToken)
+   at MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget.RunAsync(CancellationToken token)
+2024-05-28 21:01:15.5546|INFO|MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget|Connecting to Buttplug.io/0 at "ws://127.0.0.1:12345"
+2024-05-28 21:01:15.5839|INFO|MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget|Device added: "The Handy"
+2024-05-28 21:01:51.8951|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 21:01:51.8951|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 21:01:51.8951|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "tease01.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 21:01:51.8951|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:12.7000000]
+2024-05-28 21:01:51.8951|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaPlayingChangedMessage [IsPlaying: True]
+2024-05-28 21:03:15.7944|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-05-28 21:03:15.7944|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-05-28 21:03:15.7944|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "suck01.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-05-28 21:03:15.7944|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:24]
+2024-05-28 21:05:10.3590|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-05-28 21:05:10.3865|INFO|MultiFunPlayer.Settings.SettingsHelper|Saving settings to "MultiFunPlayer.config.json"
+2024-05-28 21:05:10.4235|INFO|MultiFunPlayer.OutputTarget.ViewModels.ButtplugOutputTarget|Device removed: "The Handy"

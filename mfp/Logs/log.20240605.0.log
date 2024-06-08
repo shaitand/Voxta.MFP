@@ -1,0 +1,14 @@
+2024-06-05 14:40:27.6017|INFO|MultiFunPlayer|Environment [OSVersion: Microsoft Windows NT 10.0.19045.0, CLRVersion: 8.0.3]
+2024-06-05 14:40:27.6141|INFO|MultiFunPlayer|Assembly [Version: 1.29.4+Branch.tags-1.29.4.Sha.f18d8ae5f2ff0a7c98483806f30699b0eeca81f2]
+2024-06-05 14:40:27.6141|INFO|MultiFunPlayer|Config [Version: 27]
+2024-06-05 14:40:27.6141|INFO|MultiFunPlayer|Timer [IsHighResolution: True, Frequency: 10000000]
+2024-06-05 14:40:27.6141|INFO|MultiFunPlayer|Set working directory to "D:\src\Voxta.MFP-Alpha.117\mfp"
+2024-06-05 14:40:27.7964|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-06-05 14:40:31.0914|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/0 at "udp://localhost:8000"
+2024-06-05 14:40:31.0914|INFO|MultiFunPlayer.MediaSource.ViewModels.InternalMediaSource|Connecting to Internal
+2024-06-05 14:40:31.4435|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-06-05 14:40:31.4569|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-06-05 14:40:31.4569|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-06-05 14:40:31.4569|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:27.5000000]
+2024-06-05 14:40:46.2552|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-06-05 14:40:46.2867|INFO|MultiFunPlayer.Settings.SettingsHelper|Saving settings to "MultiFunPlayer.config.json"

@@ -1,0 +1,149 @@
+2024-06-05 14:43:34.2467|INFO|MultiFunPlayer|Environment [OSVersion: Microsoft Windows NT 10.0.19045.0, CLRVersion: 8.0.3]
+2024-06-05 14:43:34.2539|INFO|MultiFunPlayer|Assembly [Version: 1.29.4+Branch.tags-1.29.4.Sha.f18d8ae5f2ff0a7c98483806f30699b0eeca81f2]
+2024-06-05 14:43:34.2539|INFO|MultiFunPlayer|Config [Version: 27]
+2024-06-05 14:43:34.2539|INFO|MultiFunPlayer|Timer [IsHighResolution: True, Frequency: 10000000]
+2024-06-05 14:43:34.2539|INFO|MultiFunPlayer|Set working directory to "D:\src\Voxta.MFP-Alpha.117\mfp"
+2024-06-05 14:43:34.3201|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-06-05 14:43:37.3630|INFO|MultiFunPlayer.MediaSource.ViewModels.InternalMediaSource|Connecting to Internal
+2024-06-05 14:43:37.7156|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0, L1, L2, R0, R1, R2]
+2024-06-05 14:43:37.7239|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received ChangeScriptMessage [Axes: L0]
+2024-06-05 14:43:37.7239|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Set L0 script to "deepthroat.funscript" from "D:\src\Voxta.MFP-Alpha.117\scripts"
+2024-06-05 14:43:37.7239|INFO|MultiFunPlayer.UI.Controls.ViewModels.ScriptViewModel|Received MediaDurationChangedMessage [Duration: 00:00:27.5000000]
+2024-06-05 14:43:47.3657|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/1 at "udp://localhost:8889"
+2024-06-05 14:46:17.4818|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/1 at "udp://localhost:8889"
+2024-06-05 14:46:27.5845|INFO|MultiFunPlayer.OutputTarget.ViewModels.UdpOutputTarget|Connecting to UDP/1 at "udp://localhost:8000"
+2024-06-05 14:47:28.8794|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_00000000"
+2024-06-05 14:47:29.2233|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:48:35.6154|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:48:35.9593|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:48:43.3492|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:48:43.6994|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:48:49.0933|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:48:49.4441|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:48:54.8431|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:48:55.1942|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:00.5833|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:49:00.9434|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:06.3416|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:49:06.6930|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:12.0907|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:49:12.4413|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:17.8383|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:49:18.1886|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:23.5826|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:49:23.9332|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:29.3300|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:49:29.6812|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:35.0781|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:49:35.4283|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:40.8227|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:49:41.1741|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:49:48.8954|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_00000000"
+2024-06-05 14:49:49.2393|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:50:06.0474|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:50:06.3995|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:50:22.7114|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:50:23.0556|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:52:50.1599|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:52:50.5114|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:54:09.6475|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:54:09.9914|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:54:40.0875|INFO|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Connecting to Serial/0 at "BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\B&1076B237&0&000000000000_0000000B"
+2024-06-05 14:54:40.4395|ERROR|MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget|Serial/0 failed with exception|System.TimeoutException: The write timed out.
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.<>c__DisplayClass98_3.<Run>b__10(TCodeThreadFixedUpdateContext context, Double elapsed)
+   at MultiFunPlayer.OutputTarget.ThreadAbstractOutputTarget.FixedUpdate[T](Func`1 condition, Action`2 body)
+   at MultiFunPlayer.OutputTarget.ViewModels.SerialOutputTarget.Run(CancellationToken token)
+2024-06-05 14:54:46.7676|INFO|MultiFunPlayer.Settings.SettingsHelper|Reading settings from "MultiFunPlayer.config.json"
+2024-06-05 14:54:46.7952|INFO|MultiFunPlayer.Settings.SettingsHelper|Saving settings to "MultiFunPlayer.config.json"
