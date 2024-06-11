@@ -1,46 +1,7 @@
-﻿# Voxta Provider App Example
+If anybody wants it here is my basic MFP integration example.
 
-This example should get you started if you want to extend Voxta. Some typical examples:
-
-- Listen to what the user or the AI says
-- Register actions (character action inference)
-- Assistant-like actions (user action inference)
-- Update the context continuously
-- Send messages on behalf of the user
-
-## How to run
-
-Simply use `dotnet run` and the app should start. It will connect to Voxta sessions on the current machine.
-
-## How to make it yours
-
-In `Program.cs`, register your own providers. For example:
-
-```csharp
-// Voxta Providers
-services.AddVoxtaProvider(builder =>
-{
-    // Add the providers you want
-    builder.AddProvider<MyCustomProvider>();
-});
-```
-
-You can always check out the examples in the `Providers` folder. Here's the basic structure of a provider:
-
-```csharp
-public class MyCustomProvider : ProviderBase
-{
-    // This uses dependency injection, feel free to add more dependencies
-    public ActionProvider(IRemoteChatSession session, ILogger<ActionProvider> logger)
-        : base(session, logger)
-    {
-    }
-    
-    protected override async Task OnStartAsync()
-    {
-        await base.OnStartAsync();
-        // Here you can register events and initialize your provider
-        // See the examples for more information
-    }
-}
-```
+If you don't have it install https://dotnet.microsoft.com/pt-br/download/dotnet/8.0
+Unzip it somewhere.
+Open a Voxta chat with character of your choice [see susie below as one option]
+run the start.bat which should kick off the included copy of MFP.
+Adjust the MFP output for your sex toy/bus driver/anything else you want to run. There is a handy output which will connect to the online service but buttplug/intiface central and bluetooth works better.
